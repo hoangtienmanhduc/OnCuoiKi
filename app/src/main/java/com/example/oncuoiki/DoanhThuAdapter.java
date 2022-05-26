@@ -18,6 +18,7 @@ public class DoanhThuAdapter extends BaseAdapter {
     public interface IClickLisner{
         void onClickUpdateIteam(DoanhThu dt);
         void onClickDeleteIteam(DoanhThu dt);
+
     }
 
     public DoanhThuAdapter(Context context, int idLayout, ArrayList<DoanhThu> arrayList, IClickLisner clickLisner) {
