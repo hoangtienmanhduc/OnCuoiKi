@@ -6,7 +6,6 @@ import java.util.Map;
 public class DoanhThu {
     private int tienkc;
     private int tienkt;
-    private int id;
 
     public DoanhThu() {
     }
@@ -30,14 +29,6 @@ public class DoanhThu {
 
     public void setTienkt(int tienkt) {
         this.tienkt = tienkt;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public Map<String,Object> toMap(){
